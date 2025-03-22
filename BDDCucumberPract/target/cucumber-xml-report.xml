@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.647" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-03-20T08:44:04.200728Z">
+<testcase classname="Check if the uber website is functionally working" name="Check if the user is able to view the uber website" time="0.028">
+<system-out><![CDATA[
+Given The user is in the uber landing page..................................passed
+Then verify the page title and url..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check if the uber website is functionally working" name="Check if the user is able to search for any cabs" time="0.016">
+<system-out><![CDATA[
+Given The user is in the uber landing page..................................passed
+When The user enters source and destination location........................passed
+Then click on search prices.................................................passed
+Then check if the cab details are displayed.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check if the uber website is functionally working" name="Check if the user is able to login to the app" time="0.012">
+<system-out><![CDATA[
+Given The user is in the uber landing page..................................passed
+When The user on login link.................................................passed
+Then The user should be taken to the login section..........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check if the uber website is functionally working" name="Check if the user is able to complete payment with VISA card" time="0.01">
+<system-out><![CDATA[
+Given The user is in the uber landing page..................................passed
+When The user completes the ride............................................passed
+Then Check if the user is able to complete the payment with VISA............passed
+]]></system-out>
+</testcase>
+<testcase classname="Check if the uber website is functionally working" name="Check if the user is able to update the language" time="0.01">
+<system-out><![CDATA[
+Given The user is in the uber landing page..................................passed
+When The user click on "EN" language switch option..........................passed
+Then The user should be able to select language.............................passed
+]]></system-out>
+</testcase>
+</testsuite>
