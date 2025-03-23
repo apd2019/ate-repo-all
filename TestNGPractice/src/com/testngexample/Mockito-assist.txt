@@ -1,0 +1,1 @@
+Mockito is a class that helps mocking tests in an isolated env such as testNG listeners
